@@ -1,5 +1,5 @@
 PODS:
-  - Alamofire (4.8.2)
+  - Alamofire (4.9.1)
   - BinanceChain (1.0.0-beta):
     - BinanceChain/Core (= 1.0.0-beta)
   - BinanceChain/Core (1.0.0-beta):
@@ -15,7 +15,6 @@ PODS:
     - XCGLogger (~> 7.0)
   - BinanceChain/Libraries (1.0.0-beta)
   - BinanceChain/Protobuf (1.0.0-beta)
-  - BinanceChain/Test (1.0.0-beta)
   - BinanceChain/Util (1.0.0-beta)
   - CryptoSwift (0.15.0)
   - HDWalletKit (0.2.8):
@@ -25,25 +24,24 @@ PODS:
     - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
   - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
   - secp256k1.swift (0.1.4)
-  - Starscream (3.1.0)
-  - SwiftDate (6.0.2)
-  - SwiftProtobuf (1.5.0)
+  - Starscream (3.1.1)
+  - SwiftDate (6.0.3)
+  - SwiftProtobuf (1.15.0)
   - SwiftyJSON (4.3.0)
-  - XCGLogger (7.0.0):
-    - XCGLogger/Core (= 7.0.0)
-  - XCGLogger/Core (7.0.0):
+  - XCGLogger (7.0.1):
+    - XCGLogger/Core (= 7.0.1)
+  - XCGLogger/Core (7.0.1):
     - ObjcExceptionBridging
 
 DEPENDENCIES:
   - BinanceChain (from `.`)
-  - BinanceChain/Test (from `.`)
   - CryptoSwift
   - HDWalletKit
   - Starscream
   - SwiftProtobuf
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - CryptoSwift
     - HDWalletKit
@@ -60,18 +58,18 @@ EXTERNAL SOURCES:
     :path: "."
 
 SPEC CHECKSUMS:
-  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
-  BinanceChain: 0fafd2d808e5be8c80fdc46d0e33a9df1c0c54e7
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BinanceChain: a80213ab0252f2152c2068b279697935497cb053
   CryptoSwift: 769f58a9e89f64e8796c2e59ce5f002dc81a2438
   HDWalletKit: f0268857289221d4d6c2041d43ee78f1e84fc8e5
   ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
   secp256k1.swift: a7e7a214f6db6ce5db32cc6b2b45e5c4dd633634
-  Starscream: 08172b481e145289c4930cb567230fb55897cfa4
-  SwiftDate: bbed9b23bfec599bd62b9a305afc554f7bd0eb6f
-  SwiftProtobuf: 241400280f912735c1e1b9fe675fdd2c6c4d42e2
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  SwiftDate: 8d4f14bf1ef68e95094511504856547bf9e3e1a6
+  SwiftProtobuf: 3320217e9d8fb75f36b40282e78c482640fd75dd
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
-  XCGLogger: 0434f15e3909cdc450bb63faf638b8792ab782ab
+  XCGLogger: 1943831ef907df55108b0b18657953f868de973b
 
-PODFILE CHECKSUM: cfb2910cf0365b0aa2b33287e22c830c7419fbf4
+PODFILE CHECKSUM: 42a4a360fce2a4b4fcd3820d608a2950d8717ee1
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.8.4
