@@ -5,10 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = 'BinanceChain'
   s.author       = { 'Michael Henderson' => 'roadkillrabbit@gmail.com' }
   s.homepage     = 'https://github.com/AyushBherwani1998/swift-sdk/'
-  s.osx.deployment_target = '10.11'
-  s.ios.deployment_target = '11.0'
-  s.tvos.deployment_target = '11.0'
-  s.watchos.deployment_target = '2.0'
+  s.ios.deployment_target = '11.2'
   s.requires_arc = true
   s.source       = { :path => 'BinanceChain' }
   s.pod_target_xcconfig = {
@@ -29,7 +26,7 @@ Pod::Spec.new do |s|
     sub.dependency 'Starscream', '~> 3.1'
     sub.dependency 'XCGLogger', '~> 7.0'
     sub.dependency 'SwiftDate', '~> 6.0.1'
-    sub.dependency 'HDWalletKit', '~> 0.3.7'
+    sub.dependency 'HDWalletKit1', '~> 0.3.8'
   end
 
   s.subspec 'Util' do |sub|
