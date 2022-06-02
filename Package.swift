@@ -4,8 +4,10 @@ import PackageDescription
 let package = Package(
     name: "BinanceChain",
     platforms: [
-        .macOS(.v10_1),
-        .iOS(.v11_2),
+        .macOS(.v10_11),
+        .iOS(.v11),
+        .tvOS(.v11),
+        .watchOS(.v2)
     ],
     products: [
         .library(name: "BinanceChain", targets: ["binancechain"]),
@@ -23,8 +25,8 @@ let package = Package(
     ],
     targets: [
         .target(name: "binancechain",
-                dependencies: ["SwiftProtobuf", "Alamofire", "SwiftyJSON", "Starscream", "HDWalletKit1","XCGLogger", "secp256k1", "SwiftDate", "CryptoSwift"],
-                path: "BinanceChain/Sources"
-        ),
+                dependencies: ["SwiftProtobuf", "Alamofire", "SwiftyJSON", "Starscream", "HDWalletKit",
+                               "XCGLogger", "secp256k1", "SwiftDate", "CryptoSwift"],
+                path: "BinanceChain/Sources")
     ]
 )
