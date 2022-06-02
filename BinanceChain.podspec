@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     sub.dependency 'Alamofire', '~> 4.8'
     sub.dependency 'SwiftyJSON', '~> 4.3'
     sub.dependency 'SwiftProtobuf', '~> 1.4'
-    sub.dependency 'Starscream', '~> 3.1'
+    sub.dependency 'Starscream', '~> 4.0.4'
     sub.dependency 'XCGLogger', '~> 7.0'
     sub.dependency 'SwiftDate', '~> 6.0.1'
     sub.dependency 'HDWalletKit1', '~> 0.3.8'
