@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.author       = { 'Michael Henderson' => 'roadkillrabbit@gmail.com' }
   s.homepage     = 'https://github.com/AyushBherwani1998/swift-sdk/'
   s.ios.deployment_target = '11.2'
+  s.osx.deployment_target = '10.11'
   s.requires_arc = true
   s.source       = { :path => 'BinanceChain' }
   s.pod_target_xcconfig = {
