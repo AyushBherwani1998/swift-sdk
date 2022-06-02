@@ -23,8 +23,8 @@ let package = Package(
     ],
     targets: [
         .target(name: "binancechain",
-                dependencies: ["SwiftProtobuf", "Alamofire", "SwiftyJSON", "Starscream", "HDWalletKit1",
-                               "XCGLogger", "secp256k1", "SwiftDate", "CryptoSwift"],
-                path: "BinanceChain/Sources")
+                dependencies: ["SwiftProtobuf", "Alamofire", "SwiftyJSON", "Starscream", "HDWalletKit1","XCGLogger", "secp256k1", "SwiftDate", "CryptoSwift"],
+                path: "BinanceChain/Sources"
+        ),
     ]
 )
